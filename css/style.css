@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+/* estilos a etiquetas*/
+
+/*Estilos para titulos*/
+.title{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.section-menu__principal{
+    display: flex;
+}
+
+.menu-principal__me{
+    display: block;
+}
+
+.menu-principal__opciones{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Menu de opciones*/
+.menu-principal__opciones{
+
+}
+
+.menu-principal__links{
+
+}
+
