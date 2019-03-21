@@ -15,65 +15,71 @@
         <section class="section-menu">
             <div class="section-menu__principal">
                 <h2 class="title">Hi, I'm <span class="name">Santiago Rios</span></h2>
-                <nav class="menu-principal__opciones">
-                    <a href="#" class="menu-principal__links">About me</a>
-                    <a href="#" class="menu-principal__links">More about me</a>
-                    <a href="#" class="menu-principal__links">i'm focused on</a>
-                    <a href="#" class="menu-principal__links">Top songs</a>
-                    <a href="#" class="menu-principal__links">Should watch</a>
-                </nav>
+                <a class="icon-menu" id="mostrar-menu" href="#"><img src="assets/img/menu.png" alt="menu"></a>
             </div>
+            <nav id="menu-links"class="menu-principal__opciones">
+                <a href="#" class="menu-principal__links active">About me</a>
+                <a href="#" class="menu-principal__links">More about me</a>
+                <a href="#" class="menu-principal__links">i'm focused on</a>
+                <a href="#" class="menu-principal__links">Top songs</a>
+                <a href="#" class="menu-principal__links">Should watch</a>
+            </nav>
         </section>
         <section class="section-about">
             <div class="section-about__tabs">
-                <article class="section-about__articles aboutme">
+                <article class="section-about__articles aboutme panel active">
                     <h2 class="title">About Me</h2>
                     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </article>
-                <article class="section-about__articles moreAboutme">
+                <article class="section-about__articles moreAboutme panel">
                     <h2 class="title">More about me</h2>
                     <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </article>
-                <article class="section-about__articles focusedOn">
+                <article class="section-about__articles focusedOn panel">
                     <h2 class="title">I'm focused on</h2>
                     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <ul class="focusedOn__menu">
-                        <li class="focusedOn__links"><a class="icon-" href="#">Study</a>Study</li>
-                        <li class="focusedOn__links"><a class="icon-" href="#">Gym</a>Gym</li>
-                        <li class="focusedOn__links"><a class="icon-" href="#">Web Develop</a>Web Develop</li>
+                        <li class="focusedOn__links"><img class="focuseOn__img" src="assets/img/atomo.png" alt="atomo"> Study</li>
+                        <li class="focusedOn__links"><img class="focuseOn__img" src="assets/img/musculatura.png" alt=""> Gym</li>
+                        <li class="focusedOn__links"><img class="focuseOn__img" src="assets/img/programando.png" alt=""> Web Develop</li>
                     </ul>
                 </article>
-                <article class="section-about__articles topSongs">
+                <article class="section-about__articles topSongs panel">
                     <h2 class="title">Top songs</h2>
                     <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <div class="media">
-                        <video src="">Here there is a video</video>
+                        <iframe src="https://www.youtube.com/embed/AbV-Q6tz4B8?start=95" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="media">
-                        <video src="">Here there is a video</video>
+                        <iframe src="https://www.youtube.com/embed/D4hAVemuQXY?start=150" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="media">
-                        <video src="">Here there is a video</video>
+                        <iframe src="https://www.youtube.com/embed/au2n7VVGv_c?start=11" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                     </div>
                     <button class="button">Next video</button>
                 </article>
-                <article class="section-about__articles shouldWatch">
+                <article class="section-about__articles shouldWatch panel">
                     <h2 class="title">You should watch</h2>
                     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="media">
-                        <video src="">Here there is a video</video>
+                        <iframe src="https://www.youtube.com/embed/s7L2PVdrb_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="media">
-                        <video src="">Here there is a video</video>
+                        <iframe src="https://www.youtube.com/embed/vFFxiPegAE0?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="media">
-                        <video src="">Here there is a video</video>
+                        <iframe src="https://www.youtube.com/embed/vupshoqHRck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <button class="button">Next video</button>
                 </article>
             </div>
         </section>
     </div>
+    <!-- <footer>
+        <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    </footer> -->
+    <script src="scripts/mostrar-menu.js"></script>
+    <script src="scripts/mostrar-tabs.js"></script>
 </body>
 
 </html>

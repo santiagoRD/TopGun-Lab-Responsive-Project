@@ -3,32 +3,118 @@
 }
 /* estilos a etiquetas*/
 body{
-    padding: 0 5%;
+    padding: 0 10px;
+    margin: 0;
+}
+
+footer{
+    padding: 20px 0;
 }
 
 /*Estilos para titulos*/
 .title{
     font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+}
+/*Estilos para el nombre*/
+.name{
+    font-weight: bold;
+    display: block;
 }
 
-
+/*Estilos para la seccion del menu*/
 .section-menu__principal{
     display: flex;
-    width: 100%;
+    justify-content: space-between;
+    border-bottom: 4px solid tomato;
 }
-
-
-/*Menu de opciones*/
-.menu-principal__opciones{
+/*Estilos para el icono del menu principal*/
+.icon-menu {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+/*Estilos para el icono del menu principal*/
+.icon-menu img{
+    width: 100%;
     margin: 0;
     padding: 0;
 }
+/*Menu de opciones Escondido*/
+.menu-principal__opciones{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s;
+}
+/*Estilo para cuando se despliega el menu*/
+.mostrar{
+    max-height: 200px;
+}
 
-
+/*Estilos para cada uno de los enlaces del menu*/
 .menu-principal__links{
     text-decoration: none;
-    text-align: right;
+    color: gray;
+    padding: 5px 0;
+}
+/*Estilos cuando se hace hover sobre los links del menu*/
+.menu-principal__links:hover{
+    color: black;
+}
+
+
+/*section-tabs----------------------------------*/
+
+/*Section about-articles*/
+/*Estilo general para cada uno de los articles*/
+.section-about__articles{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: flex-start;  
+}
+/*Estilo para esconder los paneles*/
+.panel{
+    position: absolute;
+    display: none;
+}
+/*Estilos para cuando el panel está activo*/
+.panel.active{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    animation-name: entrada;
+    animation-duration: 2s;
+}
+/*Animacion de entrada cuando se selecciona un panel*/
+@keyframes entrada {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+/*estilos para los contenedores de los videos*/
+.media{
+    width: 100%;
+    max-width: 320px;
+}
+
+/*Estilos para los botones*/
+.button{
+    padding: 5px 10px;;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #4A78FF;
+    border-radius: 5%;
+    border: none;
+    color: white;
+    width: 100px;
 }
 
