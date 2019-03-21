@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 /* estilos a etiquetas*/
+body{
+    padding: 0 5%;
+}
 
 /*Estilos para titulos*/
 .title{
@@ -11,23 +14,21 @@
 
 .section-menu__principal{
     display: flex;
+    width: 100%;
 }
 
-.menu-principal__me{
-    display: block;
-}
-
-.menu-principal__opciones{
-    display: flex;
-    flex-direction: column;
-}
 
 /*Menu de opciones*/
 .menu-principal__opciones{
-
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
-.menu-principal__links{
 
+.menu-principal__links{
+    text-decoration: none;
+    text-align: right;
 }
 
