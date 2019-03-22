@@ -102,8 +102,18 @@ footer{
 
 /*estilos para los contenedores de los videos*/
 .media{
+    position: absolute;
+    display: none;
     width: 100%;
     max-width: 320px;
+}
+
+.media.active{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    animation-name: entrada;
+    animation-duration: 2s;
 }
 
 /*Estilos para los botones*/
