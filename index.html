@@ -14,10 +14,15 @@
     <div class="container-principal">
         <section class="section-menu">
             <div class="section-menu__principal">
-                <h2 class="title">Hi, I'm <span class="name">Santiago Rios</span></h2>
-                <a class="icon-menu" id="mostrar-menu" href="#"><img src="assets/img/menu.png" alt="menu"></a>
+                <div class="section-menu__aboutme">
+                    <img class="my-photo" src="assets/img/me.jpg" alt="my-photo">
+                    <h2 class="title-name">Hi, I'm <span class="name">Santiago Rios</span></h2>
+                </div>
+                <div class="icon-menu">
+                    <a class="icon-menu-a" id="mostrar-menu" href="#"><img src="assets/img/menuRWD.png" alt="menu"></a>
+                </div>
             </div>
-            <nav id="menu-links"class="menu-principal__opciones">
+            <nav id="menu-links" class="menu-principal__opciones">
                 <a href="#" class="menu-principal__links active">About me</a>
                 <a href="#" class="menu-principal__links">More about me</a>
                 <a href="#" class="menu-principal__links">i'm focused on</a>
@@ -39,36 +44,51 @@
                     <h2 class="title">I'm focused on</h2>
                     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <ul class="focusedOn__menu">
-                        <li class="focusedOn__links"><img class="focuseOn__img" src="assets/img/atomo.png" alt="atomo"> Study</li>
-                        <li class="focusedOn__links"><img class="focuseOn__img" src="assets/img/musculatura.png" alt=""> Gym</li>
-                        <li class="focusedOn__links"><img class="focuseOn__img" src="assets/img/programando.png" alt=""> Web Develop</li>
+                        <li class="focusedOn__links"><img class="focuseOn__img" src="assets/img/atomo.png" alt="atomo">
+                            Study</li>
+                        <li class="focusedOn__links"><img class="focuseOn__img" src="assets/img/musculatura.png" alt="">
+                            Gym</li>
+                        <li class="focusedOn__links"><img class="focuseOn__img" src="assets/img/programando.png" alt="">
+                            Web Develop</li>
                     </ul>
                 </article>
                 <article class="section-about__articles topSongs panel">
                     <h2 class="title">Top songs</h2>
                     <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <div class="media active">
-                        <iframe src="https://www.youtube.com/embed/AbV-Q6tz4B8?start=95" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="videos" src="https://www.youtube.com/embed/AbV-Q6tz4B8?start=95" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="media">
-                        <iframe src="https://www.youtube.com/embed/k4UoYoDLiXM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="videos" src="https://www.youtube.com/embed/k4UoYoDLiXM" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="media">
-                        <iframe src="https://www.youtube.com/embed/SRn99oN1p_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="videos" src="https://www.youtube.com/embed/SRn99oN1p_c" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
-                    <button id="boton-songs"class="button">Next video</button>
+                    <button id="boton-songs" class="button">Next video</button>
                 </article>
                 <article class="section-about__articles shouldWatch panel">
                     <h2 class="title">You should watch</h2>
                     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="media active">
-                        <iframe src="https://www.youtube.com/embed/s7L2PVdrb_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="videos" src="https://www.youtube.com/embed/s7L2PVdrb_8" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="media">
-                        <iframe src="https://www.youtube.com/embed/vFFxiPegAE0?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="videos" src="https://www.youtube.com/embed/vFFxiPegAE0?start=5" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                     <div class="media">
-                        <iframe src="https://www.youtube.com/embed/vupshoqHRck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="videos" src="https://www.youtube.com/embed/vupshoqHRck" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                     <button id="boton-watch" class="button">Next video</button>
                 </article>
