@@ -22,13 +22,27 @@ footer{
 /*Estilos para titulos*/
 .title{
     font-family: 'Oswald', sans-serif;
-    font-size: 28px;
-    font-weight: lighter;
+    font-size: 32px;
+    font-weight: bold;
 }
+
+.content{
+    font-family:  'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
 /*Estilos para el nombre*/
+.title-name{
+    color: black;
+    font-weight: bold;
+}
+
 .name{
     font-weight: bold;
     display: block;
+    font-size: 33px;
 }
 
 /*Estilos para la seccion del menu*/
@@ -207,7 +221,9 @@ footer{
    }
    .title-name{
        color: white;
+       font-weight: lighter;
    }
+   
    .menu-principal__opciones{
         overflow:unset; 
         padding-top: 30px;
