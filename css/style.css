@@ -107,6 +107,13 @@ footer{
     display: none;
 }
 /*Estilos para cuando el panel está activo*/
+
+.focusedOn__links{
+    font-family:  'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
 .panel.active{
     position: relative;
     display: flex;
